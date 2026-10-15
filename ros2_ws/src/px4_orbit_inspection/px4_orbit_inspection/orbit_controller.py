@@ -85,12 +85,12 @@ class OrbitController(Node):
         # These defaults are mission parameters rather than hard-coded hidden
         # constants. Their names include units such as _m, _s, and _hz to reduce
         # ambiguity for beginners and engineers.
-        defaults = {
+        defaults = { #changed the face_center variable to false
             'center_north_m': 0.0, 'center_east_m': 0.0, 'altitude_m': 4.0,
             'radius_m': 5.0, 'orbit_period_s': 24.0, 'number_of_laps': 1.25,
             'climb_time_s': 6.0, 'approach_time_s': 5.0, 'final_hold_s': 3.0,
-            'setpoint_rate_hz': 20.0, 'face_center': True, 'auto_start': False,
-            'auto_land': True, 'max_radius_m': 12.0, 'max_altitude_m': 10.0}
+            'setpoint_rate_hz': 20.0, 'face_center': False, 'auto_start': False,
+            'auto_land': True, 'max_radius_m': 12.0, 'max_altitude_m': 50.0}
 
         # defaults.items() produces (name, value) pairs. For every pair, declare
         # a ROS 2 parameter. Inspect them later with:

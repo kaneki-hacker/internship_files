@@ -8,7 +8,7 @@
         <geometry>
           <mesh>
             <scale>0.0254 0.0254 0.0254</scale>
-            <uri>model://hatchback/meshes/hatchback.obj</uri>
+            <uri>meshes/hatchback.obj</uri>
           </mesh>
         </geometry>
       </collision>
@@ -17,7 +17,7 @@
         <geometry>
           <mesh>
             <scale>0.0254 0.0254 0.0254</scale>
-            <uri>model://hatchback/meshes/hatchback.obj</uri>
+            <uri>meshes/hatchback.obj</uri>
           </mesh>
         </geometry>
       </visual>
